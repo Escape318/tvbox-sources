@@ -1,0 +1,156 @@
+{
+  "_说明": "自有源池登记表。kind=local 是自写爬虫（不过检测，永远保留）；kind=cms 是 maccms 公开接口，每次跑三级检测（列表/详情/取流），过了才发。要加源就往 sites 里加一条。",
+  "sites": [
+    {
+      "key": "荐片H5",
+      "name": "荐片",
+      "kind": "local",
+      "type": 3,
+      "api": "./jianpian.py",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "cms_bdzy",
+      "name": "百度云影视",
+      "kind": "cms",
+      "api": "https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/",
+      "enabled": true,
+      "script": "./cms.py",
+      "_备注": "改用优化接口 from/dbm3u8：只回一条线路，包体小一半"
+    },
+    {
+      "key": "cms_zuid",
+      "name": "追剧影视",
+      "kind": "cms",
+      "api": "https://api.zuidapi.com/api.php/provide/vod/",
+      "enabled": true,
+      "script": "./cms.py"
+    },
+    {
+      "key": "relay_zuid",
+      "name": "追剧·中转",
+      "kind": "cms",
+      "api": "relay:https://api.zuidapi.com/api.php/provide/vod/",
+      "script": "./cms.py",
+      "enabled": true
+    },
+    {
+      "key": "cms_ffzy",
+      "name": "非凡影视",
+      "kind": "cms",
+      "api": "https://api.ffzyapi.com/api.php/provide/vod/",
+      "enabled": true,
+      "script": "./cms.py",
+      "_停用原因": "片源 CDN(vod.ffzy-plays50.com) 对非中国 IP 直接 403，端上必然播不了；网络环境变好再打开",
+      "_备注": "片源 CDN 对非中国 IP 会 403，端上可能播不了；先留着观察"
+    },
+    {
+      "key": "cms_hn",
+      "name": "红牛影视",
+      "kind": "cms",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "script": "./cms.py",
+      "enabled": true
+    },
+    {
+      "key": "cms_360",
+      "name": "360影视",
+      "kind": "cms",
+      "api": "https://360zy.com/api.php/provide/vod/",
+      "script": "./cms.py",
+      "enabled": true
+    },
+    {
+      "key": "cms_bdzy_relay",
+      "name": "百度云·中转",
+      "kind": "cms",
+      "api": "relay:https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/",
+      "script": "./cms.py",
+      "enabled": true,
+      "_备注": "接口经服务器中转，本地网络开不开代理都能进站"
+    },
+    {
+      "key": "cms_bfzy",
+      "name": "暴风影视·中转",
+      "kind": "cms",
+      "api": "relay:https://bfzyapi.com/api.php/provide/vod/",
+      "script": "./cms.py",
+      "enabled": true
+    },
+    {
+      "key": "cms_hhzy",
+      "name": "豪华影视·中转",
+      "kind": "cms",
+      "api": "relay:https://hhzyapi.com/api.php/provide/vod/",
+      "script": "./cms.py",
+      "enabled": true
+    },
+    {
+      "key": "cms_jszy",
+      "name": "极速影视·中转",
+      "kind": "cms",
+      "api": "relay:https://jszyapi.com/api.php/provide/vod/",
+      "script": "./cms.py",
+      "enabled": true
+    },
+    {
+      "key": "cms_lzzy",
+      "name": "量子影视·中转",
+      "kind": "cms",
+      "api": "relay:http://cj.lziapi.com/api.php/provide/vod/",
+      "script": "./cms.py",
+      "enabled": true
+    },
+    {
+      "key": "auto_api_wujinapi_com",
+      "name": "自动·api.wujinapi.com",
+      "kind": "cms",
+      "api": "https://api.wujinapi.com/api.php/provide/vod/",
+      "script": "./cms.py",
+      "enabled": true,
+      "auto": true,
+      "added_at": "2026-11-22",
+      "meta": {
+        "classes": 63,
+        "rows": 20,
+        "cover": 1.0
+      },
+      "feed": "WDXwang/maccms-source-checker"
+    },
+    {
+      "key": "auto_api_guangsuapi_com",
+      "name": "光速资源",
+      "kind": "cms",
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "script": "./cms.py",
+      "enabled": true,
+      "auto": false,
+      "added_at": "2026-11-22",
+      "meta": {
+        "classes": 44,
+        "rows": 20,
+        "cover": 1.0
+      },
+      "feed": "WDXwang/maccms-source-checker",
+      "promoted_at": "2026-11-25"
+    },
+    {
+      "key": "auto_jyzyapi_com",
+      "name": "金鹰资源",
+      "kind": "cms",
+      "api": "http://jyzyapi.com/api.php/provide/vod/",
+      "script": "./cms.py",
+      "enabled": true,
+      "auto": false,
+      "added_at": "2026-11-22",
+      "meta": {
+        "classes": 44,
+        "rows": 20,
+        "cover": 1.0
+      },
+      "feed": "WDXwang/maccms-source-checker",
+      "promoted_at": "2026-11-25"
+    }
+  ]
+}
