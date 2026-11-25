@@ -1,0 +1,15 @@
+{
+  "_说明": "盒子不可用时的应急配置：爬虫指向本仓库 backup/ 下的 py 文件，需客户端能访问 raw.githubusercontent.com。中转站仍会失效（它们依赖盒子 /proxy）。",
+  "sites": [
+    {"key": "荐片H5", "name": "荐片", "type": 3, "api": "https://raw.githubusercontent.com/Escape318/tvbox-sources/main/backup/jianpian.py", "searchable": 1, "changeable": 1},
+    {"key": "cms_bdzy", "name": "百度云影视", "type": 3, "api": "https://raw.githubusercontent.com/Escape318/tvbox-sources/main/backup/cms.py", "ext": "https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/", "searchable": 1, "changeable": 1},
+    {"key": "cms_zuid", "name": "追剧影视", "type": 3, "api": "https://raw.githubusercontent.com/Escape318/tvbox-sources/main/backup/cms.py", "ext": "https://api.zuidapi.com/api.php/provide/vod/", "searchable": 1, "changeable": 1},
+    {"key": "cms_ffzy", "name": "非凡影视", "type": 3, "api": "https://raw.githubusercontent.com/Escape318/tvbox-sources/main/backup/cms.py", "ext": "https://api.ffzyapi.com/api.php/provide/vod/", "searchable": 1, "changeable": 1},
+    {"key": "cms_hn", "name": "红牛影视", "type": 3, "api": "https://raw.githubusercontent.com/Escape318/tvbox-sources/main/backup/cms.py", "ext": "https://www.hongniuzy2.com/api.php/provide/vod/", "searchable": 1, "changeable": 1},
+    {"key": "cms_360", "name": "360影视", "type": 3, "api": "https://raw.githubusercontent.com/Escape318/tvbox-sources/main/backup/cms.py", "ext": "https://360zy.com/api.php/provide/vod/", "searchable": 1, "changeable": 1},
+    {"key": "auto_api_wujinapi_com", "name": "无尽资源", "type": 3, "api": "https://raw.githubusercontent.com/Escape318/tvbox-sources/main/backup/cms.py", "ext": "https://api.wujinapi.com/api.php/provide/vod/", "searchable": 1, "changeable": 1},
+    {"key": "auto_api_guangsuapi_com", "name": "光速资源", "type": 3, "api": "https://raw.githubusercontent.com/Escape318/tvbox-sources/main/backup/cms.py", "ext": "https://api.guangsuapi.com/api.php/provide/vod/", "searchable": 1, "changeable": 1},
+    {"key": "auto_jyzyapi_com", "name": "金鹰资源", "type": 3, "api": "https://raw.githubusercontent.com/Escape318/tvbox-sources/main/backup/cms.py", "ext": "http://jyzyapi.com/api.php/provide/vod/", "searchable": 1, "changeable": 1}
+  ],
+  "notice": "应急备份配置：仅保留直连站，不含中转站"
+}
