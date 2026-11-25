@@ -15,7 +15,7 @@
     {"key": "auto_jyzyapi_com", "name": "金鹰资源", "type": 3, "searchable": 1, "changeable": 1, "api": "https://raw.githubusercontent.com/Escape318/tvbox-sources/main/spider/cms.py", "ext": "http://jyzyapi.com/api.php/provide/vod/"}
   ],
   "lives": [
-    {"name": "每日聚合", "url": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/live.json", "epg": "https://live.fanmingming.com/e.xml.gz", "timeZone": "Asia/Shanghai", "ua": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"}
+    {"name": "每日聚合", "url": "https://live.fanmingming.com/tv/m3u/itv.m3u", "epg": "https://live.fanmingming.com/e.xml.gz", "timeZone": "Asia/Shanghai", "ua": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"}
   ],
   "notice": "自建源池·正式站点（爬虫与源均直连，不经过盒子）"
 }
