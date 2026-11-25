@@ -1,0 +1,148 @@
+{
+  "sites": [
+    {
+      "key": "荐片H5",
+      "name": "荐片",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/jianpian.py",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "cms_bdzy",
+      "name": "百度云影视",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "cms_zuid",
+      "name": "追剧影视",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "https://api.zuidapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "relay_zuid",
+      "name": "追剧·中转",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "relay:https://api.zuidapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "cms_ffzy",
+      "name": "非凡影视",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "https://api.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "cms_hn",
+      "name": "红牛影视",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "cms_360",
+      "name": "360影视",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "https://360zy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "cms_bdzy_relay",
+      "name": "百度云·中转",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "relay:https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "cms_bfzy",
+      "name": "暴风影视·中转",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "relay:https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "cms_hhzy",
+      "name": "豪华影视·中转",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "relay:https://hhzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "cms_jszy",
+      "name": "极速影视·中转",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "relay:https://jszyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "cms_lzzy",
+      "name": "量子影视·中转",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "relay:http://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "auto_api_wujinapi_com",
+      "name": "自动·api.wujinapi.com",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "https://api.wujinapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "auto_api_guangsuapi_com",
+      "name": "光速资源",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "auto_jyzyapi_com",
+      "name": "金鹰资源",
+      "type": 3,
+      "api": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/cms.py",
+      "ext": "http://jyzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1
+    }
+  ],
+  "lives": [
+    {
+      "name": "每日聚合",
+      "url": "https://d109b1527b501d490a54fe05-77e19b9ef7015d05a0d04c18-http-8080.vivid-hawk-9fb-fi.computers.hoody.com/live.json",
+      "epg": "https://live.fanmingming.com/e.xml.gz",
+      "timeZone": "Asia/Shanghai",
+      "ua": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"
+    }
+  ],
+  "notice": "自建源池·每日自动体检发布；如某站打不开，多为源站临时维护或机房出口受限。"
+}
